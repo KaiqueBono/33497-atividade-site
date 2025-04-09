@@ -1,4 +1,4 @@
-let score = localStorage.getItem("score") ? parseInt(localStorage.getItem("score")) : 0;
+        let score = localStorage.getItem("score") ? parseInt(localStorage.getItem("score")) : 0;
         let pointsPerClick = localStorage.getItem("pointsPerClick") ? parseInt(localStorage.getItem("pointsPerClick")) : 1;
         let autoClickers = localStorage.getItem("autoClickers") ? parseInt(localStorage.getItem("autoClickers")) : 0;
         let superAutoClickers = localStorage.getItem("superAutoClickers") ? parseInt(localStorage.getItem("superAutoClickers")) : 0;
